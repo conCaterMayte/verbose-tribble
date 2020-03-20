@@ -1,11 +1,12 @@
 .main {
   overflow: auto;
-  background-image: linear-gradient(purple, green);
+  background-image: linear-gradient(skyblue, darkblue);
   min-height: 100vh;
 }
 .heading {
-  padding-left: 20vw;
-  color: aliceblue;
+  padding-left: 0vw;
+  color: rgb(226, 69, 95);
+  text-align: center;
 }
 
 .container {

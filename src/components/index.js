@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <nav className="nav-bar">
-          <h1>Lightning Quiz</h1>
+          <h1></h1>
           <ul>
             <li>
               <Link to="/">Home</Link>
