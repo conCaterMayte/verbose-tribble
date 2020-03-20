@@ -1,7 +1,7 @@
 .main {
   overflow: auto;
   min-height: 100vh;
-  background-image: radial-gradient(hotpink, red);
+  background-image: linear-gradient(navy, rgb(1, 1, 20));
   color: whitesmoke;
 }
 .heading {
@@ -12,7 +12,13 @@
   justify-content: space-evenly;
   align-items: center;
   font-size: 2em;
+  color: gold;
+  
+  
 }
 .section > img {
   height: 70vh;
+ 
 }
+
+

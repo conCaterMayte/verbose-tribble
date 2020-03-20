@@ -24,6 +24,19 @@
   color: whitesmoke;
 }
 
+.nav-bar {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+
+  color: skyblue;
+  background-color: skyblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
