@@ -1,0 +1,9 @@
+.main {
+  min-height: 100vh;
+  background-position: contain;
+  background-repeat: no-repeat;
+}
+.heading {
+  padding-left: 20vw;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.main {
+  overflow: auto;
+  background-image: linear-gradient(purple, green);
+  min-height: 100vh;
+}
+.heading {
+  padding-left: 20vw;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
