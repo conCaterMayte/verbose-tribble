@@ -12,10 +12,10 @@ function App() {
   
 
   return (
+    <div>
     <Router>
       <div className="App">
         <nav className="nav-bar">
-          <h1></h1>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -28,7 +28,6 @@ function App() {
             </li>
           </ul>
         </nav>
-        <Play/>
         <Switch>
           <Route path="/Play">
             <Play />
@@ -42,7 +41,10 @@ function App() {
         </Switch>
       </div>
     </Router>
-  
+    <div>
+    <Play/>
+    </div>
+  </div>
   )
   }
 
