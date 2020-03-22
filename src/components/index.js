@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Fragment} from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import HomePage from "../components/HomePage";
@@ -28,6 +28,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <Play/>
         <Switch>
           <Route path="/Play">
             <Play />
@@ -41,6 +42,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+  
   )
   }
 
