@@ -1,11 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import HomePage from "../components/HomePage";
 import Play from "../components/Play";
 import HighScores from "../components/HighScores";
 
+
+  
+
 function App() {
+  
+
   return (
     <Router>
       <div className="App">
@@ -23,6 +28,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <Play/>
         <Switch>
           <Route path="/Play">
             <Play />
@@ -36,7 +42,10 @@ function App() {
         </Switch>
       </div>
     </Router>
-  );
-}
+  
+  )
+  }
+
+
 
 export default App;
